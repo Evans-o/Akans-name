@@ -1,0 +1,18 @@
+
+h1,h2{
+    align-self: center;
+}
+p{
+    align-self:center;
+}
+
+.container{
+    text-align: center;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/3094799/pexels-photo-3094799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    color:white;
+    font-size:35px;
+    
+}
