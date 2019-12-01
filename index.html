@@ -47,11 +47,31 @@
     <option value="1">Male</option>
     <option value="2">Female</option>
   </select><br><br>
-     <button type="button" onclick="myFunction()"> submit<br><br>
+     <button type="button" onclick="myWork()"> submit<br><br>
 </div>
 <div class="akan">
    <h3>History behind akans-names.</h3>
 </div>
+
+<p id="demo"></p>
+
+<script>
+function myWork() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x <= 0 || x > 31) {
+     alert("date not valid");
+  } else {
+    alert("Input OK");
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
 </body>
 </div>
 </html>

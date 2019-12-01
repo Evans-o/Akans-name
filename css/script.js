@@ -1,19 +1,23 @@
-<label for="gender">Gender </label>
-<select name="gender:required" id="gender">
-  <option>[[+gender]]</option>
-  <option value="1">Male</option>
-  <option value="2">Female</option>
-</select>
+<script>
+  
+<input id="numb" name="name" type="DD" place holder="DD">
 
-<label for="gender">Gender </label>
-<select name="gender:required" id="gender">
-  <option>[[+gender]]</option>
-  <option value="1">Male</option>
-  <option value="2">Female</option>
-</select>
-<p>Enter your date of birth.</p>
-<input type="button" value="submmit" onclick="myDate()" />
-    
-    <input id="date" type="text" name="input" placeholder="YYYY-MM-DD" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" title="Enter a date in this format YYYY-MM-DD" required />
+<button type="button" onclick="myWork()">Submit</button>
 
-    <p id="myId"></p>
+<p id="demo"></p>
+
+<script>
+function myWork() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x <= 0 || x > 31) {
+     alert("date not valid");
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
