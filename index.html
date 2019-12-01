@@ -22,33 +22,33 @@
      This web takes a user birthday and calculate the day of the week they were born and on depending on their 
      gender outputs their Akan-Names.
     </p>
-<div class="script">
-<h2>Enter date:</h2>
+<p>Fill the form below:</p>
 
-<input id="id1" type="Date"  required>
-<button onclick="myFunction()">OK</button>
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var inpObj = document.getElementById("id1");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("demo").innerHTML = alert(inpObj.validationMessage);
-    alert("thankyou");
- } else {
-    document.getElementById("demo").innerHTML = alert("Input OK");
-  } 
-} 
-</script>
-<h2>Choose your gender:</h2>
-<select name="gender:required" id="gender">
-  <option>[[+gender]]</option>
-  <option value="1">Male</option>
-  <option value="2">Female</option>
-</select>
+<div class="date">
+<form action="form_sent.php" method="post">
+  <p>Century</p>
+    <input name="name" type="Century" placeholder="CC"><br>
+  <p>
+  Year
+  </p>
+     <input name="phone" type="year" placeholder="YY"><br>
+  <p>
+     Month
+  </p>
+     <input name="name" type="Month" placeholder="MM"><br><br>
+  <p>
+  Day
+  </p>
+  <input name="name" type="DD" place holder="DD"><br>
+  <p>
+  Gender
+  </p>
+  <select name="gender:required" id="gender">
+    <option value="1">Male</option>
+    <option value="2">Female</option>
+  </select><br><br>
+     <input type="submit">  <br><br>
 </div>
-    
-
 </body>
 </div>
 </html>

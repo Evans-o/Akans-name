@@ -20,11 +20,9 @@ body{
     overflow-x: hidden; 
     align-items: center
 }
-h1{
-    text-decoration:line;
-}
-.script{
+.date{
     position:absolute;
-    
-    color:yellow;
+    font-size:20px;
+    background-color: purple;
+    width:500px;
 }
