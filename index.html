@@ -31,7 +31,7 @@
   <p>
   Year
   </p>
-     <input name="phone" type="year" placeholder="YY"><br>
+     <input id="year" name="phone" type="year" placeholder="YY"><br>
   <p>
      Month
   </p>
@@ -66,12 +66,11 @@ function myWork() {
   if (isNaN(x) || x <= 0 || x > 31) {
      alert("date not valid");
   } else {
-    alert("Input OK");
+    alert("date valid");
   }
   document.getElementById("demo").innerHTML = text;
 }
 </script>
-
 </body>
 </div>
 </html>
