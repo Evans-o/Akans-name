@@ -8,6 +8,10 @@ this webite  takes  a user birthday and calculatethe day of the week they  were 
 <h1>PROJECT SET UP INSTRUCTION</h1>
 <p>To open this application,you can use Terminal in your electronic system or you can visit this link to get access to it:https://evans-o.github.io/Akans-name.github.io/
     </p> 
+    <h1>Language used</h1>
+    <li>HTML:5</li>
+    <li>JAVASCRIPT:3</li>
+    <li>Bootsrap</li>
 <h1>Live link.</h1>
 <p>To get into the project visit the following link:https://evans-o.github.io/Akans-name.github.io/ </p>
 <h1>Copyrights (c) evans.</h1>.
