@@ -25,7 +25,7 @@ body{
 }
 .date{
     position:absolute;
-    font-size:20px;
+    font-size:45px;
     background-color: purple;
     width:45%;
     height:69%;
@@ -47,7 +47,7 @@ h3{
 }
 .akan{
     position:absolute;
-    left:115%;
+    left:130%;
     width:80%;
     bottom:10%;
     height:90%;

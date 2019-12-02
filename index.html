@@ -25,37 +25,22 @@
 <h>Fill the form below:</h>
 
 <div class="date">
-<form action="form_sent.php" method="post">
-  <p>Century</p>
-    <input id="century" name="century" type="number" placeholder="CC"><br>
-  <p>
-  Year
-  </p>
-     <input id="year" name="year" type="number" placeholder="YY"><br>
-  <p>
-     Month
-  </p>
-     <input id="month" name="name" type="number" placeholder="MM"><br>
-  <p>
-  Day
-  </p>
-  <input id="day" name="name" type="number" placeholder="DD"><br><br>
-  Gender
-  <div id="form-group">
-  <div class="radio">
-   <input type="radio" name="gender" value="female" id="female">
-   <label for="female">
-   &nbsp;&nbsp;female</label>
-   <div class="male">
-   <input type="radio" name="gender" value="male" id="male">
-   <label for="male">
-   &nbsp;&nbsp;male
-   </label>
-
-        </div>
-  </div>
-  </select><br><br>
-     <button type="button" onclick="myWork()"> submit<br><br>
+      <form>
+            <label>Date of Birth</label> <br>
+            <input type="number" name="dob" id = "day" placeholder="DD" required><br>
+            
+            <label>Month of Birth</label> <br>
+            <input type="number" name="mob" id="month" placeholder="MM" required> <br>
+          
+            <label for="yob">Year of Birth</label> <br>
+            <input type="number" name="yob" id="year" placeholder="YYYY" required> <br>
+            <label for="yob">Gender</label> <br>
+               Male<input type="radio" id ="male" value="male" ><br>
+               Female<input type="radio" id ="female" value="female" > <br>
+               <button type="button" onclick="submission()"> submit<br><br>
+          </form>
+          <p id ="done"></p>
+     
 </div>
 <div class="akan">
    <h3>History behind akans-names.</h3>
@@ -64,17 +49,10 @@
       twin status or an ancestor middle name.This naming tradition is shred throughout west Africa and the Africa Diaspora.During 18th-19th centuries,slaves in the caribean
       from the regionthat is modern-day,Ghana were reffered to as "Coromantees".Many of the leaders of slave rebellion had "Day names"including Cufy or "Kofi",Cudjoe or "Kojo" and quamina or
       "Kwame Nkuruma".
-      Input your gender and date of birth and enjoy the fun facts!!</p>
+      <p>Input your gender and date of birth and enjoy the fun facts!!</p>
    </p>
    </p>
-   <div class="span">
-      
-</div>
-</div>
-
-<p id="demo"></p>
-
-<script src="css/script.js"></script>
+   
 </body>
 </div>
 </html>
