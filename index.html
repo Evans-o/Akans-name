@@ -27,25 +27,33 @@
 <div class="date">
 <form action="form_sent.php" method="post">
   <p>Century</p>
-    <input name="name" type="number" placeholder="CC"><br>
+    <input id="century" name="century" type="number" placeholder="CC"><br>
   <p>
   Year
   </p>
-     <input id="year" name="phone" type="number" placeholder="YY"><br>
+     <input id="year" name="year" type="number" placeholder="YY"><br>
   <p>
      Month
   </p>
-     <input name="name" type="number" placeholder="MM"><br>
+     <input id="month" name="name" type="number" placeholder="MM"><br>
   <p>
   Day
   </p>
-  <input id="numb" name="name" type="number" placeholder="DD"><br>
-  <p>
+  <input id="day" name="name" type="number" placeholder="DD"><br><br>
   Gender
-  </p>
-  <select name="gender:required" id="gender">
-    <option value="1">Male</option>
-    <option value="2">Female</option>
+  <div id="form-group">
+  <div class="radio">
+   <input type="radio" name="gender" value="female" id="female">
+   <label for="female">
+   &nbsp;&nbsp;female</label>
+   <div class="male">
+   <input type="radio" name="gender" value="male" id="male">
+   <label for="male">
+   &nbsp;&nbsp;male
+   </label>
+
+        </div>
+  </div>
   </select><br><br>
      <button type="button" onclick="myWork()"> submit<br><br>
 </div>
@@ -66,22 +74,7 @@
 
 <p id="demo"></p>
 
-<script>
-function myWork() {
-  var x, text;
-
-  // Get the value of the input field with id="numb"
-  x = document.getElementById("numb").value;
-
-  // If x is Not a Number or less than one or greater than 10
-  if (isNaN(x) || x <= 0 || x > 31) {
-     alert("day not valid");
-  } else {
-    alert("day valid");
-  }
-  document.getElementById("demo").innerHTML = text;
-}
-</script>
+<script src="css/script.js"></script>
 </body>
 </div>
 </html>

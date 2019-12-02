@@ -47,11 +47,11 @@ h3{
 }
 .akan{
     position:absolute;
-    right:4%;
+    left:115%;
+    width:80%;
+    bottom:10%;
+    height:90%;
     border:solid black;
-    width:30%;
-    height:70%;
-    top:60%;
 }
 .akan p{
     color:solid whitesmoke;

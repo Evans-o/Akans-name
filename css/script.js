@@ -1,23 +1,15 @@
-<script>
-  
-<input id="numb" name="name" type="DD" place holder="DD">
 
-<button type="button" onclick="myWork()">Submit</button>
+var century, year, month, day
+function myWork(){
+  century=parseInt(document.getElementById("century").value)
+  year=parseInt(document.getElementById("year").value)
+  month=parseInt(document.getElementById("month").value)
+  day=parseInt(document.getElementById("day").value)
+  male = document.getElementById("male").value;
+  female = document.getElementById("female")
+  var dateOftheweek = new Date ( year + "/" + month + "/" day);
+  var result =dateOftheweek.getDay();
 
-<p id="demo"></p>
-
-<script>
-function myWork() {
-  var x, text;
-
-  // Get the value of the input field with id="numb"
-  x = document.getElementById("numb").value;
-
-  // If x is Not a Number or less than one or greater than 10
-  if (isNaN(x) || x <= 0 || x > 31) {
-     alert("date not valid");
-  } else {
-    text = "Input OK";
-  }
-  document.getElementById("demo").innerHTML = text;
-}
+  var day = ["monday","Tuesday", "Wednesday", "thursday","friday", "saturday", "sunday"];
+  var male  = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kof", "Kwame"];
+  var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];}
