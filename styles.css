@@ -53,6 +53,16 @@ h3{
     height:70%;
     top:60%;
 }
+.akan p{
+    color:solid whitesmoke;
+    font-size:20px;
+}
 h1{
     text-decoration:underline;
+}
+span{
+    
+    border:solid black;
+    width:200px;
+    height:900px;   
 }
