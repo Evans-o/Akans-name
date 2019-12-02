@@ -71,3 +71,9 @@ h1{
     margin-bottom:20px;
        
 }
+.box{
+    border:3px solid black;
+    width:80%;
+    height:30%;
+    margin-left:80px;
+}
