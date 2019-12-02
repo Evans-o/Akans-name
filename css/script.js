@@ -1,8 +1,5 @@
 
-
-
-
-var submission= function() {
+function myWork() {
   
   var day = parseInt(document.getElementById("day").value);
   var month = parseInt(document.getElementById("month").value);
@@ -54,9 +51,9 @@ var submission= function() {
   done.innerHTML = "Invalid year please try again";
  }
   else if (male.checked) {
-    done.innerHTML = "you were born on " + daysOfTheWeek[result] + " and your Akan name is " + male[result]
+    done.innerHTML = alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + male[result])
   }
   else {
-    done.innerHTML= "you were born on " + daysOfTheWeek[result] + " and your Akan name is " + female[result]
+    done.innerHTML= alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + female[result])
   }
 }
