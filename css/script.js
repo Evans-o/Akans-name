@@ -1,12 +1,11 @@
 
 function myFunction() {
-  
   var day = parseInt(document.getElementById("day").value);
   var month = parseInt(document.getElementById("month").value);
   var year = parseInt(document.getElementById("year").value);
   var male= document.getElementById("male")
   var female=document.getElementById("female")
-  var done=document.getElementById("done")
+  var demo =document.getElementById("demo")
   var dateOfTheWeek = new Date (year + "/" + month + "/" + day)
   var result = dateOfTheWeek.getDay()
 
