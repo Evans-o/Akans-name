@@ -23,10 +23,10 @@ function myFunction() {
     demo.innerHTML ="Invalid date try again";
   }
 
- else if (year < 1900) {
+ else if (year < 1900 || year >2020) {
   demo.innerHTML = "Invalid year try again";
  }
-    else if (male.checked==true) {
+    else if (male.checked===true) {
     alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + male[result])
   }
 else{
