@@ -26,10 +26,10 @@ function myFunction() {
  else if (year < 1900) {
   demo.innerHTML = "Invalid year try again";
  }
-  else if (male.checked==true) {
-    demo.innerHTML = alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + male[result])
+   if (male.checked==true) {
+    alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + male[result])
   }
-  else {
-    demo.innerHTML= alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + female[result])
+else if (female.checked==true);{
+  alert("you were born on " + daysOfTheWeek[result] + " and your Akan name is " + female[result])
   }
 }
