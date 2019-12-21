@@ -45,6 +45,9 @@ p{
     #akan{
         display:none;
         position:absolute;
+        background-image:url("https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size:cover;
+        background-repeat:no-repeat;
     }
     #akan >h2{
         color:lightcoral;
@@ -61,7 +64,7 @@ p{
     #form{
         text-align: center;
         font-size:25px;
-        background-color: grey;
+        background-color:transparent;
         margin-right:600px;
         margin-left:600px;
     }
