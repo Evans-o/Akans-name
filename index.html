@@ -8,49 +8,74 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootsta.css">
     <title>Akans-name</title>
-    <script src="css/script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
 <body>
-        <div class="container">
-     <h1> AKAN-NAMES </h1>
-    <h2>Descriptions.</h2>
-    <p>Most people do know when there birthdays are but some may not know what day of the week they were  born.
-     This web takes a user birthday and calculate the day of the week they were born and on depending on their 
-     gender outputs their Akan-Names.
-    </p>
-<h>Fill the form below:</h>
+        <div id="ghana">
+   <h1>THE HERITAGE OF GHANA</h1> 
+   <h2>Brief history about ghana</h2>
+   <p>The Gold Coast was the first British colony in Africa to become independent. After independence, its name changed to Ghana, and the first president was Kwame Nkrumah.
+       Ghana is in West Africa, in the Gulf of Guinea. Its neighbouring countries are Cote D'Ivoire, Togo, 
+      and Burkina Faso, and the capital is Accra. The name Ghana comes from an ancient kingdom several 100 kilometres northwest of the modern republic.</p>
+      <h2>Explore ghana</h2>
+      <p>From the lush rainforests of the Kakum National Park to the golden sandy beaches of the Atlantic coast and the indigenous Lobi villages, our small group tours to Ghana will transport you into the heart of this exotic adventure travel destination. 
 
-<div class="date">
-      
-      <form>
-         <label>Date of Birth</label> <br>
-         <input type="number" name="number" id = "day" placeholder="DD" required><br>
-            
-        <label>Month of Birth</label> <br>
-         <input type="number" name="mnumber" id="month" placeholder="MM" required> <br>
-          
-         <label for="yob">Year of Birth</label> <br>
-         <input type="number" name="number" id="year" placeholder="YYYY" required> <br>
-         <label for="radio">Gender</label> <br>
-         Male<input  name="gender"type="radio" id ="male" value="gender" ><br>
-         Female<input name="gender" type="radio" id ="female" value="gender" ><br>
-         <button type="button" onclick="myFunction()"> submit<br>
-            <p id ="demo"></p>
-      </form>
-
-
-     
-</div>
-<div class="akan">
-   <h3>History behind akans-names.</h3>
-   <p>The akan people of ghana frequently name their children after the day of the week they were born and the order in which they were born.
-   These "day names"have futher meanings conccerning the soul and the character of the person.Middle names have consideraly more vaiety and and can refer to their birth order,
-      twin status or an ancestor middle name.This naming tradition is shred throughout west Africa and the Africa Diaspora.During 18th-19th centuries,slaves in the caribean
-      from the regionthat is modern-day,Ghana were reffered to as "Coromantees".Many of the leaders of slave rebellion had "Day names"including Cufy or "Kofi",Cudjoe or "Kojo" and quamina or
-      "Kwame Nkuruma".Input your gender and date of birth and enjoy the fun facts!!</p>
-      <div class="box">
-         </div>
-   </div>
-   
+      <p>Join our Ghana adventure tour to get up close with nature on a walking safari with the opportunity to spot elephant, antelope, monkey and numerous migratory bird species. And meet
+          local tribespeople to learn about their culture and explore mudhouse villages and mosques. Learn about the infamous colonial history and slave trade at the UNESCO Elmina Castle and 
+          complete your adventure with some laid-back beach time and a dip in the Atlantic ocean. </p>
+          <h2>Ghana traditional heritage.</h2>
+          <p>The material cultural heritage of Ghana comprises monuments which include buildings of traditional 
+             Ghanaian architecture and decor, such as the Asante Traditional Buildings, the European-built Forts 
+             and Castles, and other colonial-era buildings. The movable cultural heritage includes artefacts such as pots, stools, musical instruments, textiles, clothing, leather works, weapons, tools, carvings, masks, jewellery, and ritual dolls.
+               The material cultural heritage of Ghana also includes several the naming system called<strong>AKAN-NAMING SYSTEM!!</strong>.</p>
+               <p>click on the button below to explore more about akan- names</p>
+               <div id="name" ><button type="button" id="butto" name="button" class="btn btn-primary mb-2" >click!</button></div>
+            </div>
+               <div id="akan">
+                   <h1>WELCOME TO AKAN-NAMING SYSTEM!!</h1>
+                  <h2>AKAN-NAMES</h2>
+                  <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+                        This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina. click below to learn more!!</p>
+                       <div id="name" ><button type="button" id="button" name="button" class="btn btn-primary mb-2" >click!</button>
+                        <button type="button" id="buton" name="button" class="btn btn-primary mb-2" >click!</button></div>
+                        <div id="cut">                        
+                          <p>In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi are as follows. The diacritics on á a̍ à represent high, mid, and low tone (tone does not need to be marked on every vowel), while the diacritic on a̩ is used for vowel harmony and can be ignored. (Diacritics are frequently dropped in any
+                         case.) Variants of the names are used in other languages, or may represent different transliteration schemes. The variants mostly consist of different affixes (in Ashanti, kwa- or ko- for men and a- plus -a or -wa for women). For example, among the Fante, the prefixes are kwe- and e-, respectively. Akan d̩wo is pronounced something like English Joe, but there do appear to be two sets of names for those born on Tuesday.</p></div>
+                         <div id="form">
+                                <form name="myForm" class="form" onsubmit="validate();">
+                                        <div class="form-group">
+                                          <label for="number">Year of Birth:</label>
+                                          <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="month">Month of Birth:</label>
+                                          <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="date">Date of Birth:</label>
+                                          <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="month">Gender</label><br>
+                                          <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                                            </label>
+                                          </div>
+                                          <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                                        <br>
+                                      </form>
+                                 </div>
+                        </div>
+               
+               <script src="js/script.js"></script>
+               <script src="js/jquery-3.3.1.js"></script> 
 </body>
 
 </html>

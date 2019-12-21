@@ -1,83 +1,72 @@
-
-
-p{
-    text-align:center;
-    margin-right:60px;
-    margin-left:60px;
-    margin-bottom:40px;
-}
-
-
-body{
-    background-image:url("https://images.pexels.com/photos/3094799/pexels-photo-3094799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size:cover;
-    color:white;
-    font-size:40px;
-    font-weight:20px;
-    margin-right:20px;
-    border:2px solid whitesmoke;
-    padding-right:50px;
-    height: 1300px;
-    text-align:center;
-    width:100%;
-    overflow-x: hidden; 
-    align-items: center
-}
-.date{
-    position:absolute;
-    font-size:45px;
-    background-color: purple;
-    width:45%;
-    height:72%;
-    top:70%;
-    margin-left:20px;
-}
-h{
-    position:absolute;
-    left:1%;
-    background-color:purple;
-    width:460px;
-    margin-left:10px;
-    margin-left:20px;
-    text-decoration:underline;
-}
-h3{
-    font-size:25px;
-    text-decoration: underline;;
-}
-.akan{
-    position:absolute;
-    left:57%;
-    width:40%;
-    top:60%;
-    height:80%;
-    border:solid black;
-}
-.akan p{
-    color:solid whitesmoke;
-    font-size:25px;
-
-}
 h1{
-    text-decoration:underline;
+    text-align:center;
+    font-weight:bolder;
+    border:1px solid whitesmoke;
+    color:yellowgreen;
+    font-size:45px;
+    margin-top:0;
+    background-image: url("https://lh3.googleusercontent.com/7u_XJJFiTleAzt6E0QhTBTCmScpj-9zOQI26lAQq8be7W2ufpQbFNoqRpfqRhFLll_LNEjY=s136");
+    background-size:contain;
+    background-repeat:no-repeat;
 }
-.span{
-    position:relative;
-    left:70px;
-    bottom:30px;
-    border:solid black;
-    width:80%;
-    height:27%;
-    margin-bottom:20px;
-       
+body{
+    background-image:url("https://images.pexels.com/photos/161293/prambanan-temple-java-hinduism-161293.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:cover;
+    background-repeat:no-repeat;
+    align-content: center;
+
 }
-.box
-{
-    position: relative;
-    bottom:30px;
-    border:3px solid black;
-    width:80%;
-    height:30%;
-    margin-left:80px;
-    margin-bottom: 20px;
+h2{
+    text-align: center;
+    color:wheat;
+    text-emphasis: dot;
 }
+p{
+    text-align: center;
+    font-size:35px;
+    margin-left:300px;
+    margin-right:300px;
+}
+#akan >p{
+    color:white;
+}
+#cut{
+    display:none;
+    color:white;
+}
+#name{
+    padding:35px;
+    text-align:center;
+    size:35px;}
+
+    #buton{
+        display:none;
+    }
+    #akan{
+        display:none;
+        position:absolute;
+    }
+    #akan >h2{
+        color:lightcoral;
+        font-size:50;
+        text-decoration: underline;
+    }
+    #akan >h1{
+        margin-left:300px;
+        margin-right:300px;
+    }
+    #button,#buton,#butto{
+        padding: 10px;
+    }
+    #form{
+        text-align: center;
+        font-size:25px;
+        background-color: grey;
+        margin-right:600px;
+        margin-left:600px;
+    }
+    #date, #month, #year{
+        margin:10px;
+        padding:10px;
+    }
+
